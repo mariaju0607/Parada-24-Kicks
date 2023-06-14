@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function listName() {
+            let listName = ['Pousando no Amor (2019)', 
+                            'Clima do Amor (2022)', 
+                            'Love to Hate You (2023)', 
+                            'Beleza Verdadeira (2020)',
+                            'A Love So Beautiful (2020)',
+                            'Jardim de Meteoros (2018)',
+                            'Hometown Cha-Cha-Cha (2021)',
+                            'Semantic Error (2022)',
+                            'A Love So Beautiful (2020)',
+                            'Dear.M (2022)']
+
+            return listName[Math.floor(Math.random() * 10)];
+        }
+
+        alert(listName())
+    </script>
+</body>
+
+</html>
